@@ -2,7 +2,7 @@ package week1_JavaCodingTasks.danil;
 
 public class FinRa {
     public static void runner(int n) {
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             if (i % 3 == 0 && i % 5 == 0) System.out.print("FinRa ");
             else if (i % 5 == 0) System.out.print("Ra ");
             else if (i % 3 == 0) System.out.print("Fin ");
