@@ -1,4 +1,4 @@
-package socialMedea;
+package socialMediaProject.socialMedea;
 
 public interface SocialMedia {
     void connect(SocialMedia user);

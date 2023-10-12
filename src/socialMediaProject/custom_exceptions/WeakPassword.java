@@ -1,4 +1,4 @@
-package custom_exceptions;
+package socialMediaProject.custom_exceptions;
 
 public class WeakPassword extends Exception{
     public WeakPassword(){

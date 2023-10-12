@@ -1,0 +1,15 @@
+1.Write a method which can identify if given number is even or odd.
+2. Write a method that can divide two numbers without using division operator.
+3. FINRA :
+   Write a method which prints out the numbers from 1 to 30 but for numbers which
+   are a multiple of 3print "FIN" instead of the number and for numbers which are a
+   multiple of 5, print "RA" instead of the number. for numbers which are a multiple of
+   both 3 and 5, print "FINRA" instead of the number
+
+4. Swap 2 variables without using a third variable.
+5. Devisible by 3, 5, and 15. Print only numbers that are devisible by provided numbers and print them in 3 separage groups:
+        Divisible by 3:
+        Divisible by 5:
+        Divisible by 15:
+
+6. Print consecutive numbers and replace numbers that are divisible by 2 with word Codility, 3 - Test, 5 - Coders;

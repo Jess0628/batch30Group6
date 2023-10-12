@@ -1,4 +1,4 @@
-package socialMedea;
+package socialMediaProject.socialMedea;
 
 public interface Account {
     void signup();

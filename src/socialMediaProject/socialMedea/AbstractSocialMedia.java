@@ -1,4 +1,4 @@
-package socialMedea;
+package socialMediaProject.socialMedea;
 
 import java.util.ArrayList;
 
