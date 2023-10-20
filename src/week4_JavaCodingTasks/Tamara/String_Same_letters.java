@@ -1,4 +1,4 @@
-package week1_JavaCodingTasks.tamara;
+package week4_JavaCodingTasks.Tamara;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
