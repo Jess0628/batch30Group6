@@ -9,10 +9,9 @@ public class ReverseNegativeNumber {
         String res = "";
         for (int i = 0; i<nums.length; i++) {
             if(nums[i].contains("-")) nums[i] = "-"+new StringBuilder(nums[i].replace("-","")).reverse();
+            res+=nums[i]+" ";
         }
-        for (String num : nums) {
-            res+=num+" ";
-        }
+
         System.out.println(res);
         return res;
     }
