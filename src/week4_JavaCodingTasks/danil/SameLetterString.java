@@ -17,7 +17,8 @@ public class SameLetterString {
         }
         System.out.println(first);
         System.out.println(second);
-        return first.containsAll(second);
+        return first.equals(second);
+        //return first.containsAll(second);
     }
 
     public static void main(String[] args) {
