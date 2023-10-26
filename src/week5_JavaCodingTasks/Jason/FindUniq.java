@@ -1,4 +1,4 @@
-package week5_JavaCodingTasks.danil.Jason;
+package week5_JavaCodingTasks.Jason;
 
 public class FindUniq {
 

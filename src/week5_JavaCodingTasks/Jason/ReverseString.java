@@ -1,4 +1,4 @@
-package week5_JavaCodingTasks.danil.Jason;
+package week5_JavaCodingTasks.Jason;
 
 import java.util.Arrays;
 
