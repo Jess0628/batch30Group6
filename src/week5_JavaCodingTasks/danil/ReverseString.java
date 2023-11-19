@@ -7,11 +7,15 @@ public class ReverseString {
     public static String reverse(){
         String input = new Scanner(System.in).nextLine();
         String[] arr = input.split("");
+        String start = "";
+        String end = "";
 
         for (int i = 0; i < input.length()/2; i++) {
             String last = arr[arr.length-1-i];
             arr[arr.length-1-i] = arr[i];
             arr[i] = last;
+
+
 
         }
 

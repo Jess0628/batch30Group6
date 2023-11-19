@@ -16,6 +16,19 @@ public class ReverseNegativeNumber {
         return res;
     }
 
+    public static int reverseNum(int num){
+        //12341%10 = 1 last digit
+        //12341/10 = 1234 removed the last digit
+        //result = result*10+last digit
+        int result = 0;
+        while(num!=0){
+            int lastDigit = num%10;
+            num/=10;
+            result = result*10+lastDigit;
+        }
+        return result;
+    }
+
     public static void main(String[] args) {
         Random r = new Random();
         String one = "";
@@ -31,6 +44,8 @@ public class ReverseNegativeNumber {
         String nums = ""+one+" "+two+" "+three;
         System.out.println(nums);
         reverseNegative(nums);
+
+        System.out.println("reverseNum(12565) = " + reverseNum(12565));
 
     }
 }
