@@ -61,7 +61,7 @@ correct answers).
     }
 
     public static void main(String[] args) {
-        int[] a = sumUpToZero(6);
+        int[] a = sumUpToZero(3);
         System.out.println(Arrays.toString(a));
         System.out.println(sumOfArrayElements(a));
     }
